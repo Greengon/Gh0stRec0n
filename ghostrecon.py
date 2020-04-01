@@ -1,10 +1,11 @@
 from UI_Tools.banner import print_banner
-from UI_Tools.output import print_to_user
+from UI_Tools.argument_parser import args_parser
 
 
 def main():
-    print_banner()
-    print_to_user("DOC\\ghostrecon_help.txt")
+    # TODO: delete print_banner call here after buildnig first scan
+    # print_banner()
+    args_parser()
 
 
 if __name__ == "__main__":

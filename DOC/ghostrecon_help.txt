@@ -1,3 +1,0 @@
-Ghostrecon 0.01
-Usage: ./ghostrecon.py [options] <target>
--h: prints the help summary file.
