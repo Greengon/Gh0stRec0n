@@ -3,6 +3,8 @@ import socket
 
 
 class TCPClient:
+
+    # TODO create default ports to use
     # TODO set for wrong input
     def __init__(self, ip, port):
         self.target_host = ip

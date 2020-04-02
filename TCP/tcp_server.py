@@ -4,7 +4,9 @@ import threading
 
 
 class TCPServer:
+
     # TODO set for wrong input
+    # TODO create default ports to use
     def __init__(self, ip, port):
         self.bind_ip = ip
         self.bind_port = port

@@ -37,8 +37,6 @@ def args_parser():
             use_udp_client(args.IP, args.port[0])
         elif args.tcp_server is True:
             use_tcp_server(args.IP, args.port[0])
-        elif args.port is not None:
-            print("port: %d" % args.port[0])
         else:
             parser.print_help(sys.stderr)
             sys.exit()

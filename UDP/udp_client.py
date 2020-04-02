@@ -5,6 +5,7 @@ import socket
 class UDPClient:
 
     # TODO set for wrong input
+    # TODO create default ports to use
     def __init__(self, ip, port):
         self.target_host = ip
         self.target_port = port
