@@ -6,6 +6,6 @@ lazy-object-proxy==1.4.2
 mccabe==0.6.1
 pycodestyle==2.5.0
 pyfiglet==0.8.post1
-pylint==2.4.3
+pylint==4.0.9
 six==1.12.0
 wrapt==1.11.2
